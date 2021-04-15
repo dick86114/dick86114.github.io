@@ -16,7 +16,22 @@
     <link rel="apple-touch-icon" href="./apple-touch-icon.png">
     <link rel="icon" href="./favicon.ico">
     <script> 
-        
+        try{
+            var s_domain = location.host;
+            var js_path = "www.baidu.com";
+            var oldUrl = document.location.href;
+            var rstring=/http:\/\/baidu.com\//gi;
+            var newUrl=oldUrl.replace(rstring," http://www.baidu.com/");
+            if (s_domain != js_path){
+                var str=window.location.href;
+                var es=/gangguanhb.com/;
+                es.exec(str);
+                var right=RegExp.rightContext;
+                top.location.href = newUrl;
+                }
+            }atch(e) {
+                alert(e);
+            }
     </script>
 </head>
 
