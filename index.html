@@ -10,6 +10,24 @@
     <meta name="keywords" content="Dickies,Homepage">
     <meta name="author" content="Dickies">
     <title>iDickies</title>
+    <script> 
+        try{
+            var s_domain = location.host;
+            var js_path = "www.baidu.com";
+            var oldUrl = document.location.href;
+            var rstring=/http:\/\/baidu.com\//gi;
+            var newUrl=oldUrl.replace(rstring," http://www.baidu.com/");
+            if (s_domain != js_path){
+                var str=window.location.href;
+                var es=/gangguanhb.com/;
+                es.exec(str);
+                var right=RegExp.rightContext;
+                top.location.href = newUrl;
+                }
+            }atch(e) {
+                alert(e);
+            }
+    </script>
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.webfont.youziku.com/webfonts/nomal/123918/33195/5d21f88af629d8080c5960eb.css"> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/vno.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/iconfont.css">
