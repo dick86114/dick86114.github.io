@@ -24,7 +24,8 @@
 
 ### 注
 
-- 访问地址：[个人主页](http://i.dmego.me/)
+- 访问地址：[个人主页](https://www.idickies.com/)
+- 参考来源：[i.dmego.me](http://i.dmego.me/)
 - 使用了 [一言](http://hitokoto.cn/) 的 API 服务
 - ~~使用了 [Bing 壁纸 API](https://github.com/xCss/bing/) 服务~~
 - ~~使用了 [Yahoo Query Language (YQL)](https://developer.yahoo.com/yql/) 来解决获取 Bing 壁纸跨域问题~~
@@ -32,4 +33,4 @@
 
 ### 更新时间
 
->2019-7-7
+>2021-4-1
